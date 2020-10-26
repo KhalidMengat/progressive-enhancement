@@ -1,0 +1,23 @@
+td, tr, th
+{
+    border: 1px dashed black; /*dire qu c'est des pointillés pour le tableau*/
+}
+table
+{
+    border-collapse: collapse; /*pour fusionner les lignes du milieu*/
+}
+td, th
+{
+    text-align: center;
+}
+img
+{
+    width: 25%;
+    border: 5px solid white;
+    border-radius: 10%;
+}
+body
+{
+    background-color: beige;
+}
+
