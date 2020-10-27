@@ -1,6 +1,6 @@
 td, tr, th
 {
-    border: 1px dashed black; /*dire qu c'est des pointillés pour le tableau*/
+    border: 2px dashed black; /*dire qu c'est des pointillés pour le tableau*/
 }
 table
 {
@@ -13,11 +13,67 @@ td, th
 img
 {
     width: 25%;
-    border: 5px solid white;
+    display: flex;
+    margin: auto;
+    border: 5px solid black;
     border-radius: 10%;
+}
+.bad
+{
+    color: red;
+}
+.good
+{
+    color: green;
+}
+p,h1,h2{
+    font-family: 'PT Serif', serif; 
+}
+body{
+    color: darkslategray;
+    width: 90%S;
+}
+h5,h3
+{
+    text-align: center;
+}
+table
+{
+    align-items: center;
+}
+body, table
+{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+a:visited 
+{
+    color: #4b2f89;
+}
+header
+{
+    background-color: yellow;
+}
+blockquote
+{
+    font-style: italic;
+    font-size: larger;
+    margin-left:170px;
+    margin-right:170px ;
+    padding: 8px;
+    min-height: 44px;
+    border:2px solid black;
+    border-radius:3px;  
+    border-color: firebrick;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 30px;
 }
 body
 {
-    background-color: beige;
+    background-image: url("https://i.pinimg.com/originals/63/bd/40/63bd40ba4e2c3ceb8ecb92abeea19e24.jpg"); 
+    background-attachment:fixed;
 }
 
