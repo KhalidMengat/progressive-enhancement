@@ -30,7 +30,7 @@ p,h1,h2{
     font-family: 'PT Serif', serif; 
 }
 body{
-    color: darkslategray;
+    color: whitesmoke;
     width: 90%S;
 }
 h5,h3
@@ -54,6 +54,7 @@ a:visited
 header
 {
     background-color: yellow;
+    color: black;
 }
 blockquote
 {
