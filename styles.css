@@ -26,12 +26,11 @@ img
 {
     color: green;
 }
-p,h1,h2{
-     font-family: 'PT Serif', serif;
-}
-body{
+body
+{
     color: whitesmoke;
     width: 90%S;
+    font-family: 'Open Sans', sans-serif;
 }
 h5,h3
 {
@@ -155,3 +154,14 @@ h1
 {
     text-align: center;
 }
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position: fixed;
+    bottom: 2%;
+    right: 0%;
+  }
