@@ -27,7 +27,7 @@ img
     color: green;
 }
 p,h1,h2{
-     font-family: 'PT Serif', serif;  */
+     font-family: 'PT Serif', serif;
 }
 body{
     color: whitesmoke;
@@ -44,9 +44,9 @@ table
 }
 body, table
 {
-    text-align: center;
-    margin-left:auto;
-    margin-right:auto;
+    /* margin-left:auto; */
+    /* margin-right:auto; */
+    margin: 2%;
 }
 a:visited 
 {
@@ -65,13 +65,13 @@ blockquote
     margin-right:170px ;
     padding: 8px;
     min-height: 44px;
-    border:2px solid black;
-    border-radius:3px;  
+    border-left:2px solid black;  
     border-color: firebrick;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 200px;
+    margin-left: 200px;
     margin-top: 80px;
     margin-bottom: 30px;
+    background-color: grey;
 }
 body
 {
@@ -95,5 +95,63 @@ table tr:nth-child(odd)
 {
     color: black;
 }
-
-
+ul
+{
+    display: inline-block;
+}
+ul li
+{
+    margin: 3px auto;
+    padding-right: 25px ;
+}
+ul li:nth-child(1)
+{
+    background-image: url(https://raw.githubusercontent.com/becodeorg/bxl-hopper-1-25/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement/bien.png?token=ARM5XWVSDIKATQSPTVT4GP27UJ4MK);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+ul li:nth-child(2)
+{
+    background-image: url(https://raw.githubusercontent.com/becodeorg/bxl-hopper-1-25/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement/bien.png?token=ARM5XWVSDIKATQSPTVT4GP27UJ4MK);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+ul li:nth-child(3)
+{
+    background-image: url(https://raw.githubusercontent.com/becodeorg/bxl-hopper-1-25/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement/chat.png?token=ARM5XWSV2WR6XEXY43JNMKC7UJ5YI);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.container
+{
+    display: flex;
+    background: lightgrey;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    color: black;
+}
+.Boxtext
+{
+    flex-basis: 50%;
+}
+.Boximg
+{
+    flex-basis: 50%;
+    align-self: center;
+}
+.img3
+{
+    width: 50%;
+}
+.img2
+{
+    width: 50%;
+}
+h1
+{
+    text-align: center;
+}
